@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    background-color: rgb(225, 225, 225);
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.app__header{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+}
+.app{
+display: flex;
+margin: 20px;
+justify-content: space-evenly;
+}
+.Select{
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    font-family: unset;
+    box-shadow: 1px 1px 8px 0.5px black;
+    border-radius: 3px
+}
+.Selecttr:nth-of-type(odd){
+    background-color: rgb(230, 230, 230);
+}
+
+.app__left{
+    flex: 0.9;
+}
+.app__status{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:918px){
+.app{
+    flex-direction: column;
+}
+}
+.Options  tr:nth-child(odd) {background: #FFF}
